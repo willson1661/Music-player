@@ -1,0 +1,147 @@
+.Player {
+    position: relative;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    width: 100%;
+
+}
+
+.player{
+    background: none;
+}
+
+
+.rhap_container {
+ 
+
+   
+
+   
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2) !important;
+    opacity: 177% !important;
+    background: rgb(0 0 0 / 10%) !important;
+}
+
+.rhap_progress-bar-show-download {
+    background-color: rgb(0 0 0 / 50%) !important;
+}
+
+.rhap_progress-indicator {
+    
+    background: #000 !important;
+
+}
+
+.rhap_volume-indicator {
+  
+    background: #000 !important;
+  
+}
+
+.rhap_container svg {
+    vertical-align: initial;
+    color: #000 !important;
+  
+}
+
+.rhap_volume-bar {
+
+    background: #9c9a9a !important;
+ 
+}
+
+.track {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: calc( 20px - 10px);
+    border: 1px solid transparent;
+    transition: 0.3s;
+    cursor: pointer;
+    height: 100px;
+    width: 434px;
+    margin-left: 0px;
+    padding: 8px;
+}
+
+.track .track-img {
+    width: 90px;
+    border-radius: calc( 20px - 10px);
+}
+
+.track .track-discr {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    min-width: 190px;
+    color: #dfdbe5;
+    letter-spacing: 2px;
+}
+
+.track .track-discr .track-name {
+    font-size: 17px;
+    margin-top: 8px;
+    text-align: left;
+}
+
+.track .track-discr .track-author {
+    margin-top: 8px;
+    font-weight: 300;
+    color: #969696;
+    text-align: justify;
+    font-size: 17px;
+}
+
+    .track:hover {
+        background: #686d77;
+        border-color: #686d77;
+        position: relative;
+    }
+
+
+    .track .track-duration {
+        min-width: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-weight: 500;
+        flex: 1 0 121px;
+        font-size: clamp(14px,53%,24px);
+        letter-spacing: 3px;
+    }
+
+.flex {
+    overflow: scroll;
+    height: 526px;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+
+
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    margin-top: -7px;
+ 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: #756f73;
+    border-radius: 10px;
+    height: 50px;
+    outline: 0 inset #4b4b4d;
+ 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #756f73;
+  }
+  
