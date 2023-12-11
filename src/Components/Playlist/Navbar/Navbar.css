@@ -1,6 +1,6 @@
 .navbar {
-  height: 49px;
-  width: 95%;
+  height: 65px;
+  width: 96%;
   color: white;
   font-size: 1.2rem;
   padding: 21px 28px;
@@ -11,6 +11,9 @@
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
   z-index: 100;
 }
+
+
+
   .navbar::before {
     backdrop-filter: blur(10px);
   }
@@ -80,10 +83,43 @@
       color: #000;
   }
 
+
+@media (max-width:1200px){
+  .nav-links {
+
+    width: 35%;
+
+}
+}
+@media (max-width:1000px){
+  .nav-links {
+
+    width: 42%;
+
+}
+.navbar {
+  width: 94%;
+
+}
+}
+
+@media (max-width:800px){
+  .nav-links {
+
+    width: 56%;
+
+}
+}
   @media (max-width:600px){
     .nav-links {
-  
-      width: 62%;
- 
+
+      width: 80%;
+   
   }
+  .nav-icon {
+
+    position: relative;
+    left: -22px;
+}
+
   }
