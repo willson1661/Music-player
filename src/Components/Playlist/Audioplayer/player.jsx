@@ -53,7 +53,7 @@ const Player =()=>{
       
    
         showSkipControls={true}
-        showJumpControls={false}
+        showJumpControls={true}
         header={`Now playing: ${Songs[trackIndex].title}`}
       
         onClickPrevious={handleClickPrevious}
