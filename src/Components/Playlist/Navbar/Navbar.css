@@ -57,7 +57,7 @@
     width: 39%;
     top: 109px;
     right: -80%;
-    transition: 0.75s;
+    transition: 0.3s;
   }
   .nav-links.active {
     opacity: 92%;
@@ -65,7 +65,7 @@
     right: 0;
     box-shadow: 0 28px 28px rgba(0, 0, 0, 0.2);
     top: 109px;
-    transition: 0.75s;
+    transition: 0.3s;
 }
 
     .nav-item {
