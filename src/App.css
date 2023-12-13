@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "FuturaBQ-LightOblique";   /*Can be any text*/
+    src: local("AirbnbCerealLight"),
+      url("./FuturaBQ-LightOblique.otf") format("opentype");
+  }
+*{
+    margin: 0;
+padding: 0;
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("./Components/Background/background_image.png");
+    background-size: cover;
+    background-position: center;
+    font-family: "FuturaBQ-LightOblique"; 
+    user-select: none;
+    background-repeat: no-repeat;
+}
+audio:not([controls]) {
+    display: block !important;
+}
